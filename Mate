@@ -1,0 +1,54 @@
+{
+  "memo": "JsT9Mix4rVFnZOAGTAEsIqtx3QfV",
+  "memo_bytes": "SnNUOU1peDRyVkZuWk9BR1RBRXNJcXR4M1FmVg==",
+  "_links": {
+    "self": {
+      "href": "https://api.testnet.minepi.com/transactions/8def1a1acde5e1dbec02e74e92623e40743c57a9d06c9e3db2b1f0a087cdca8b"
+    },
+    "account": {
+      "href": "https://api.testnet.minepi.com/accounts/GBIRDXXP4V4IUOHE2K7HFK5FOZERPN3EAMAUKIVWNFGT5LWQLING3SEL"
+    },
+    "ledger": {
+      "href": "https://api.testnet.minepi.com/ledgers/13473460"
+    },
+    "operations": {
+      "href": "https://api.testnet.minepi.com/transactions/8def1a1acde5e1dbec02e74e92623e40743c57a9d06c9e3db2b1f0a087cdca8b/operations{?cursor,limit,order}",
+      "templated": true
+    },
+    "effects": {
+      "href": "https://api.testnet.minepi.com/transactions/8def1a1acde5e1dbec02e74e92623e40743c57a9d06c9e3db2b1f0a087cdca8b/effects{?cursor,limit,order}",
+      "templated": true
+    },
+    "precedes": {
+      "href": "https://api.testnet.minepi.com/transactions?order=asc\u0026cursor=57868070063980544"
+    },
+    "succeeds": {
+      "href": "https://api.testnet.minepi.com/transactions?order=desc\u0026cursor=57868070063980544"
+    },
+    "transaction": {
+      "href": "https://api.testnet.minepi.com/transactions/8def1a1acde5e1dbec02e74e92623e40743c57a9d06c9e3db2b1f0a087cdca8b"
+    }
+  },
+  "id": "8def1a1acde5e1dbec02e74e92623e40743c57a9d06c9e3db2b1f0a087cdca8b",
+  "paging_token": "57868070063980544",
+  "successful": true,
+  "hash": "8def1a1acde5e1dbec02e74e92623e40743c57a9d06c9e3db2b1f0a087cdca8b",
+  "ledger": 13473460,
+  "created_at": "2023-08-20T20:07:28Z",
+  "source_account": "GBIRDXXP4V4IUOHE2K7HFK5FOZERPN3EAMAUKIVWNFGT5LWQLING3SEL",
+  "source_account_sequence": "47075616113033425",
+  "fee_account": "GBIRDXXP4V4IUOHE2K7HFK5FOZERPN3EAMAUKIVWNFGT5LWQLING3SEL",
+  "fee_charged": "100000",
+  "max_fee": "100000",
+  "operation_count": 1,
+  "envelope_xdr": "AAAAAgAAAABREd7v5XiKOOTSvnKrpXZJF7dkAwFFIrZpTT6u0FoabQABhqAApz8GAAAA0QAAAAEAAAAAAAAAAAAAAABk4nMwAAAAAQAAABxKc1Q5TWl4NHJWRm5aT0FHVEFFc0lxdHgzUWZWAAAAAQAAAAAAAAABAAAAAJXYP+HPUU2nuR1eQzI4zBIFvRHSzWV2G+VZHm1XmAiHAAAAAAAAAAAAAYagAAAAAAAAAAHQWhptAAAAQM5Sbt+LGfdYxYcrBQ5s8wdGYO4vxsw+5HHH5kS81prfudxd1c2/ppU+ItcZSQG6wjxL/sX78CNGYp2g0gGVBQ4=",
+  "result_xdr": "AAAAAAABhqAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA=",
+  "result_meta_xdr": "AAAAAgAAAAIAAAADAM2WtAAAAAAAAAAAURHe7+V4ijjk0r5yq6V2SRe3ZAMBRSK2aU0+rtBaGm0AAAAANSvocACnPwYAAADQAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAABAM2WtAAAAAAAAAAAURHe7+V4ijjk0r5yq6V2SRe3ZAMBRSK2aU0+rtBaGm0AAAAANSvocACnPwYAAADRAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAABAAAABAAAAAMAzY8qAAAAAAAAAACV2D/hz1FNp7kdXkMyOMwSBb0R0s1ldhvlWR5tV5gIhwAAAAA7zqtAAM2ICAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAEAzZa0AAAAAAAAAACV2D/hz1FNp7kdXkMyOMwSBb0R0s1ldhvlWR5tV5gIhwAAAAA70DHgAM2ICAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAMAzZa0AAAAAAAAAABREd7v5XiKOOTSvnKrpXZJF7dkAwFFIrZpTT6u0FoabQAAAAA1K+hwAKc/BgAAANEAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAEAzZa0AAAAAAAAAABREd7v5XiKOOTSvnKrpXZJF7dkAwFFIrZpTT6u0FoabQAAAAA1KmHQAKc/BgAAANEAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=",
+  "fee_meta_xdr": "AAAAAgAAAAMAzZasAAAAAAAAAABREd7v5XiKOOTSvnKrpXZJF7dkAwFFIrZpTT6u0FoabQAAAAA1LW8QAKc/BgAAANAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAEAzZa0AAAAAAAAAABREd7v5XiKOOTSvnKrpXZJF7dkAwFFIrZpTT6u0FoabQAAAAA1K+hwAKc/BgAAANAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA==",
+  "memo_type": "text",
+  "signatures": [
+    "zlJu34sZ91jFhysFDmzzB0Zg7i/GzD7kccfmRLzWmt+53F3Vzb+mlT4i1xlJAbrCPEv+xfvwI0ZinaDSAZUFDg=="
+  ],
+  "valid_after": "1970-01-01T00:00:00Z",
+  "valid_before": "2023-08-20T20:10:24Z"
+}
